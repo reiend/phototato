@@ -7,7 +7,7 @@ project(phototato)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON CACHE INTERNAL "") 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++20")
 
-add_executable(phototato main.cpp)
+add_executable(phototato src/main.cpp)
 
 # add the executable
 
