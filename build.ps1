@@ -2,7 +2,7 @@ function Invoke-Build {
   Write-Host "Building the program please wait ..."
   Write-Host ""
 
-  cmake  -S . -B  build -G "MinGW Makefiles" 
+  cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -S . -B  build -G "MinGW Makefiles" 
   Set-Location .\build
   cmake .. 
   make
