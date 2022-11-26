@@ -6,7 +6,6 @@ function Invoke-Build {
   Set-Location .\build
   cmake .. 
   make
-
 }
 
 function Convert-MilliSeconds {
@@ -29,7 +28,6 @@ function Remove-Logs {
   if($time -gt 1) {
     Write-Host "Clearing logs in"($time)"seconds"
   } else {
-
     Write-Host "Clearing logs in"($time)"second"
   }
   Wait-Execution $time
