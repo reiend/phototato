@@ -1,0 +1,3 @@
+C:\Users\reiend\scoop\apps\cmake\3.25.0\bin\cmake.exe -E rm -f CMakeFiles\phototato.dir/objects.a
+C:\Users\reiend\scoop\apps\mingw\current\bin\ar.exe qc CMakeFiles\phototato.dir/objects.a @CMakeFiles\phototato.dir\objects1
+C:\Users\reiend\scoop\apps\mingw\current\bin\c++.exe  -std=c++20 -Wl,--whole-archive CMakeFiles\phototato.dir/objects.a -Wl,--no-whole-archive -o phototato.exe -Wl,--out-implib,libphototato.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\phototato.dir\linkLibs.rsp
