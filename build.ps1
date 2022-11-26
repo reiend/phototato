@@ -47,7 +47,7 @@ function Invoke-Run {
   # run program
   Write-Host "Running the program"
   Remove-Logs $time
-  .\main.exe
+  .\phototato.exe
 }
 
 function Invoke-Project {
